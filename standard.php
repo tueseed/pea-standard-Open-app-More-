@@ -22,7 +22,7 @@ if (!is_null($events['events'])) {
             foreach($csv as $values)
             {
              if($values[1]==$findName)   // index 0 contains the name
-                 $Myd = iconv("utf-8","tis-620",$values[0]);
+                 $Myd = iconv("tis-620","utf-8",$values[0]);
                  	                     // index 1 contains the googlemap link 
 			 
 			 }
