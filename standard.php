@@ -26,8 +26,8 @@ if (!is_null($events['events'])) {
                  	                     // index 1 contains the googlemap link 
 			 
 			 }
-			 //if ($doc=="")
-				// $doc = "ไม่พบข้อมูล";
+			 if ($Myd=="")
+				 $Myd = "ไม่พบข้อมูล";
                 // Build message to reply back
 			$messages = [
 				'type' => 'text',
