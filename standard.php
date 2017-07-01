@@ -24,13 +24,7 @@ if (!is_null($events['events'])) {
              if($values[1]==$findName or $values[2]==$findName)   // index 0 contains the name
                  $Myd = iconv("tis-620","utf-8",$values[0]);
                  	                     // index 1 contains the googlemap link 
-			 
-			 }
-			 //if ($doc=="")
-				// $doc = "ไม่พบข้อมูล";
-                
-		
-			// Build message to reply back
+			 // Build message to reply back
 			$messages = [
 				'type' => 'text',
 				'text' => $Myd    //."  [".$KVA." KVA]"
@@ -55,6 +49,12 @@ if (!is_null($events['events'])) {
 			curl_close($ch);
 
 			echo $result . "\r\n";
+			 }
+			 //if ($doc=="")
+				// $doc = "ไม่พบข้อมูล";
+                
+		
+			
 		}
 	}
 }
