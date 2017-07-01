@@ -28,7 +28,9 @@ if (!is_null($events['events'])) {
 			 if($Myd==1){ 
 			    break;
 				     }
-		    if ($Myd=="")
+		    
+			 }
+			 if ($Myd=="")
 				 $Myd = "ไม่พบข้อมูล";
                 // Build message to reply back
 			$messages = [
@@ -55,8 +57,6 @@ if (!is_null($events['events'])) {
 			curl_close($ch);
 
 			echo $result . "\r\n";
-			 }
-			 
 		
 			
 		}
