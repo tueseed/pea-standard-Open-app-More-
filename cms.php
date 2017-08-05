@@ -16,14 +16,14 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
             $csv = array_map('str_getcsv', file('CMS.csv'));
-            $findName = iconv("tis-620","utf-8",$text);
-           // $findName = $text;
+           // $findName = iconv("tis-620","utf-8",$text);
+           $findName = $text;
 			//$findName = strtoupper($findName);
             foreach($csv as $values)
             {
 		    
              if($values[1]==$findName or $values[2]==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
-                                 $Myd0 = iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
+                                 $Myd0 = $values[0];//iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
 				 $Myd1 = "\n".iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
 				 $Myd2 = "\n".iconv("tis-620","utf-8",$values[2]);// จังหวัด
 				 $Myd3 = "\n".iconv("tis-620","utf-8",$values[3]);// รหัส
