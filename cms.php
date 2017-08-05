@@ -16,7 +16,8 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
             $csv = array_map('str_getcsv', file('CMS.csv'));
-            $findName = iconv("utf-8","tis-620",$text);
+           // $findName = iconv("utf-8","tis-620",$text);
+            $findName = $text;
 			//$findName = strtoupper($findName);
             foreach($csv as $values)
             {
