@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 				 $Myd9 = iconv("tis-620","utf-8",$values[9]);//อายุ
 				 $Myd10 = iconv("tis-620","utf-8",$values[10]);//ประกันภัย
 				 $Myd11 = iconv("tis-620","utf-8",$values[11]);//เชื่อเพลิง
-				 $MydTotal = $Myd0.$Myd1.$Myd2.$Myd3.$Myd4.$Myd5.$Myd6.$Myd7.$Myd8.$Myd9.$Myd10.$Myd11  
+				 $MydTotal = $Myd0.$Myd1.$Myd2.$Myd3.$Myd4.$Myd5.$Myd6.$Myd7.$Myd8.$Myd9.$Myd10.$Myd11;  
 		     $messages=[
 				'type' => 'text',
 				'text' => $MydTotal    
