@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
             {
 		    
              if(trim($values[1])==$findName or trim($values[2])==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
-                                 $Myd0 = $values[0];//iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
+                                 $Myd0 = iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
 				 $Myd1 = "\n".iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
 				 $Myd2 = "\n".iconv("tis-620","utf-8",$values[2]);// จังหวัด
 				 $Myd3 = "\n".iconv("tis-620","utf-8",$values[3]);// รหัส
