@@ -44,7 +44,7 @@ if (!is_null($events['events'])) {
 			                                         }
 			if ($Myd0=="") {
 		                
-			    $MydTotal = "ไม่พบข้อมูล";
+			    $Myd0 = "ไม่พบข้อมูล";
 			$messages =[
 				'type' => 'text',
 				'text' => $Myd0   
