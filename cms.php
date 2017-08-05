@@ -17,12 +17,12 @@ if (!is_null($events['events'])) {
 			
             $csv = array_map('str_getcsv', file('CMS.csv'));
             $findName = iconv("utf-8","tis-620",$text);
-           //$findName = $text;
+           $findName = $text;
 			//$findName = strtoupper($findName);
             foreach($csv as $values)
             {
 		    
-             if(iconv("utf-8","tis-620",$values[1])==$findName or iconv("utf-8","tis-620",$values[2])==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
+             if(trim($values[1])==$findName or trim($values[2])==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
                                  $Myd0 = $values[0];//iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
 				 $Myd1 = "\n".iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
 				 $Myd2 = "\n".iconv("tis-620","utf-8",$values[2]);// จังหวัด
