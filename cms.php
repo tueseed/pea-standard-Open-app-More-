@@ -38,17 +38,17 @@ if (!is_null($events['events'])) {
 				 $MydTotal = $Myd0.$Myd1.$Myd2.$Myd3.$Myd4.$Myd5.$Myd6.$Myd7.$Myd8.$Myd9.$Myd10.$Myd11;  
 		     $messages=[
 				'type' => 'text',
-				'text' => $Myd0    
+				'text' => $MydTotal    
 						
 			];
 	     }
 			                                         }
 			if ($Myd0=="") {
 		                
-			    $Myd0 = "ไม่พบข้อมูล";
+			    $MydTotal = "ไม่พบข้อมูล";
 			$messages =[
 				'type' => 'text',
-				'text' => $Myd0   
+				'text' => $MydTotal   
 						
 			];
 			
