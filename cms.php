@@ -22,7 +22,7 @@ if (!is_null($events['events'])) {
             {
 		    
              if($values[1]==$findName or $values[2]==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
-                 $Myd0 = iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
+                                 $Myd0 = iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
 				 $Myd1 = "\n".iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
 				 $Myd2 = "\n".iconv("tis-620","utf-8",$values[2]);// จังหวัด
 				 $Myd3 = "\n".iconv("tis-620","utf-8",$values[3]);// รหัส
@@ -37,17 +37,17 @@ if (!is_null($events['events'])) {
 				 $MydTotal = $Myd0.$Myd1.$Myd2.$Myd3.$Myd4.$Myd5.$Myd6.$Myd7.$Myd8.$Myd9.$Myd10.$Myd11;  
 		     $messages=[
 				'type' => 'text',
-				'text' => $MydTotal    
+				'text' => $Myd0    
 						
 			];
 	     }
 			                                         }
-			if ($MydTotal=="") {
+			if ($Myd0=="") {
 		                
 			    $MydTotal = "ไม่พบข้อมูล";
 			$messages =[
 				'type' => 'text',
-				'text' => $MydTotal    
+				'text' => $Myd0   
 						
 			];
 			
