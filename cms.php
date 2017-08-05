@@ -23,17 +23,17 @@ if (!is_null($events['events'])) {
 		    
              if($values[1]==$findName or $values[2]==$findName) {  // เอาทะเบียนหรือรหัสรถมาเทียบ
                  $Myd0 = iconv("tis-620","utf-8",$values[0]);  // เก็บค่า กฟฟ
-				 $Myd1 = iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
-				 $Myd2 = iconv("tis-620","utf-8",$values[2]);// จังหวัด
-				 $Myd3 = iconv("tis-620","utf-8",$values[3]);// รหัส
-				 $Myd4 = iconv("tis-620","utf-8",$values[4]);//ยี่ห้อ
-				 $Myd5 = iconv("tis-620","utf-8",$values[5]);//ลักษณะ
-				 $Myd6 = iconv("tis-620","utf-8",$values[6]);//เลขเครื่อง
-				 $Myd7 = iconv("tis-620","utf-8",$values[7]);//รุ่น
-				 $Myd8 = iconv("tis-620","utf-8",$values[8]);//วันจดทะเบียน
-				 $Myd9 = iconv("tis-620","utf-8",$values[9]);//อายุ
-				 $Myd10 = iconv("tis-620","utf-8",$values[10]);//ประกันภัย
-				 $Myd11 = iconv("tis-620","utf-8",$values[11]);//เชื่อเพลิง
+				 $Myd1 = "\n".iconv("tis-620","utf-8",$values[1]); // ทะเบียนรถ
+				 $Myd2 = "\n".iconv("tis-620","utf-8",$values[2]);// จังหวัด
+				 $Myd3 = "\n".iconv("tis-620","utf-8",$values[3]);// รหัส
+				 $Myd4 = "\n".iconv("tis-620","utf-8",$values[4]);//ยี่ห้อ
+				 $Myd5 = "\n".iconv("tis-620","utf-8",$values[5]);//ลักษณะ
+				 $Myd6 = "\n".iconv("tis-620","utf-8",$values[6]);//เลขเครื่อง
+				 $Myd7 = "\n".iconv("tis-620","utf-8",$values[7]);//รุ่น
+				 $Myd8 = "\n".iconv("tis-620","utf-8",$values[8]);//วันจดทะเบียน
+				 $Myd9 = "\n".iconv("tis-620","utf-8",$values[9]);//อายุ
+				 $Myd10 = "\n".iconv("tis-620","utf-8",$values[10]);//ประกันภัย
+				 $Myd11 = "\n".iconv("tis-620","utf-8",$values[11]);//เชื่อเพลิง
 				 $MydTotal = $Myd0.$Myd1.$Myd2.$Myd3.$Myd4.$Myd5.$Myd6.$Myd7.$Myd8.$Myd9.$Myd10.$Myd11;  
 		     $messages=[
 				'type' => 'text',
