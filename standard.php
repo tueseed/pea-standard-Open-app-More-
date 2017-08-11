@@ -31,7 +31,7 @@ if (!is_null($events['events'])) {
 			 if($Myd==1){ 
 			    break;
 			}
-			 if ($Myd=="")
+			 if ($Myd==""){
 				 $findresult = "N/A";
 				 $Myd = "สวัสดีครับ มาตรฐานการก่อสร้างระบบจำหน่ายเป็นเรื่องสำคัญ สงสัยเรื่องไหนเรามีคำตอบ พิมพ์ แรงสูง หม้อแปลง แรงต่ำ หรือคลิกที่ลิ้ง เพื่อดูวิธีการใช้งาน 
 https://drive.google.com/open?id=0B4BTAaYsG0CpMF9VRUExRWhZLUU 
@@ -42,6 +42,7 @@ https://drive.google.com/open?id=0B4BTAaYsG0CpMF9VRUExRWhZLUU
 LINE : tueseed 
 email : nattapong.cha@pea.co.th,tue_seed@hotmail.com 
 หรือ โทร 095-5579848";
+			 }
                 // Build message to reply back
 			$messages = [
 				'type' => 'text',
