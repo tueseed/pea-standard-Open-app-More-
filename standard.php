@@ -24,12 +24,14 @@ if (!is_null($events['events'])) {
             {
 		    
              if($values[1]==$findName or $values[2]==$findName or $values[3]==$findName)   // index 0 contains the name
-                 $Myd = iconv("tis-620","utf-8",$values[0]);  // index 1 contains the googlemap link    
+                 $Myd = iconv("tis-620","utf-8",$values[0]);  // index 1 contains the googlemap link   
+		    $findresult = "success";
 			 }
 			 if($Myd==1){ 
 			    break;
 			}
 			 if ($Myd=="")
+				 $findresult = "N/A";
 				 $Myd = "สวัสดีครับ มาตรฐานการก่อสร้างระบบจำหน่ายเป็นเรื่องสำคัญ สงสัยเรื่องไหนเรามีคำตอบ พิมพ์ แรงสูง หม้อแปลง แรงต่ำ หรือคลิกที่ลิ้ง เพื่อดูวิธีการใช้งาน 
 https://drive.google.com/open?id=0B4BTAaYsG0CpMF9VRUExRWhZLUU 
 พบปัญหาการใช้งานหรือมีคำติชม ข้อเสนอแนะเพิ่มเติมติดต่อ 
@@ -89,7 +91,7 @@ $Da = date("d.m.y");
 $strFileName = "stadis.csv";
 $objFopen = fopen($strFileName, 'a');
 //$findName1 = iconv("tis-620","utf-8",$findName);
-$strText1 = "\n".$Da.",".$Ti.",".$findName.",".$displayname;
+$strText1 = "\n".$Da.",".$Ti.",".$findName.",".$findresult.",".$displayname;
 fwrite($objFopen, $strText1);
 fclose($objFopen);
 
