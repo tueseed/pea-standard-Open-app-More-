@@ -13,6 +13,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			$text = $event['message']['text'];
+			$userid = $event['source']['userId'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
@@ -67,5 +68,29 @@ email : nattapong.cha@pea.co.th,tue_seed@hotmail.com
 			
 		}
 	}
+	//// getdisplay
+	$url = 'https://api.line.me/v2/bot/profile/'.$userid;
+
+   $headers = array('Authorization: Bearer ' . $access_token);
+   $ch = curl_init($url);
+   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+   //curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+   $result = curl_exec($ch);
+   curl_close($ch);
+   $displayname = $result;
+	//end get
+
 }
+$Ti = date("H:i:s",mktime(date("H")+7, date("i")+0, date("s")+0));
+$Da = date("d.m.y");
+$strFileName = "stadis.csv";
+$objFopen = fopen($strFileName, 'a');
+//$findName1 = iconv("tis-620","utf-8",$findName);
+$strText1 = "\n".$Da.",".$Ti.",".$findName.",".$displayname;
+fwrite($objFopen, $strText1);
+fclose($objFopen);
+
 echo "OK";
