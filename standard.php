@@ -118,7 +118,7 @@ if (!is_null($events['events'])) {
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
                                                                                             'text'=> 'อุปกรณ์ในระบบจำหน่าย'
-                                                                                            )
+                                                                                            ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสา',
