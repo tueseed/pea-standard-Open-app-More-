@@ -63,6 +63,7 @@ if (!is_null($events['events'])) {
                                                              'type'=> 'carousel',
                                                              'columns'=> array(
 						                               array(
+										     'thumbnailImageUrl'=>'https://pea-standard.herokuapp.com/PIC1.jpg',
 								                     'title'=>'อุปกรณ์ในระบบจำหน่าย',    
 								                     'text'=> 'กรุณาเลือกหมวด',
                                                                                         'actions'=>array (
@@ -84,6 +85,7 @@ if (!is_null($events['events'])) {
                                                                                                                   )//action col1
 								            ),
 								     array(
+							            'thumbnailImageUrl'=>'https://pea-standard.herokuapp.com/PIC1.jpg',
 							            'title'=>'อุปกรณ์ในระบบจำหน่าย', 
 								    'text'=> 'กรุณาเลือกหมวด',
                                                                     'actions'=>array (
@@ -105,6 +107,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col2
 							             ),
 							              array(
+							           'thumbnailImageUrl'=>'https://pea-standard.herokuapp.com/PIC1.jpg',
 							           'title'=>'อุปกรณ์ในระบบจำหน่าย', 
 								    'text'=> 'กรุณาเลือกหมวด',
                                                                     'actions'=>array (
@@ -126,6 +129,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col3
 								     ),
 								   array(
+							           'thumbnailImageUrl'=>'https://pea-standard.herokuapp.com/PIC1.jpg',
 							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
 								    'text'=> 'อุปกรณ์ในระบบจำหน่าย',
                                                                     'actions'=>array (
