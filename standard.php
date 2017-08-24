@@ -63,8 +63,8 @@ if (!is_null($events['events'])) {
                                                          'columns'=> array(
 							   
 						                    array(
-								    'title'=>'9กรุณาเลือกแผนก',    
-								    'text'=> 'แผนกแรงสูง',
+								    'title'=>'9000000000',    
+								    'text'=> '8888888888',
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
@@ -167,7 +167,7 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
-                                                                                            'text'=> 'คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย'
+                                                                                            'text'=> 'อุปกรณ์ในระบบจำหน่าย'
                                                                                             )
 									               
                                                                                       )//action col4
