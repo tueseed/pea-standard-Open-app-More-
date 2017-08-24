@@ -78,8 +78,8 @@ if (!is_null($events['events'])) {
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'คอนสาย คาน',
-                                                                                                                 'text'=> 'cross'
+                                                                                                                 'label'=> 'อุปกรณ์ยึดคอนสาย คาน',
+                                                                                                                 'text'=> 'cross1'
                                                                                                                   )
                                                                                                                   )//action col1
 								            ),
@@ -89,18 +89,18 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'คอนสาย',
-                                                                                            'text'=> 'คุณเลือกแผนกหม้อแปลง'
+                                                                                            'label'=> 'เสาตอม่อ(สตับ)และชุดยึดโยง',
+                                                                                            'text'=> 'stub-guy'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เสา',
-                                                                                            'text'=> 'pole'
+                                                                                            'label'=> 'ชุดต่อสายล่อฟ้า และการต่อลงดิน',
+                                                                                            'text'=> 'lightning'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'คอนสาย คาน',
-                                                                                               'text'=> 'cross'
+                                                                                              'label'=> 'ลูกถ้วยฉนวน และอุปกรณ์ประกอบ',
+                                                                                               'text'=> 'insulator'
                                                                                                                   )
                                                                                       )//action col2
 							             ),
@@ -110,18 +110,18 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เลือก',
-                                                                                            'text'=> 'คุณเลือกแผนกแรงต่ำ'
+                                                                                            'label'=> 'สายไฟฟ้าและอุปกรณ์ประกอบ',
+                                                                                            'text'=> 'conductor'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เสา',
-                                                                                            'text'=> 'pole'
+                                                                                            'label'=> 'มิเตอร์ ซี.ที วี.ที และอุปกรณ์ประกอบ',
+                                                                                            'text'=> 'meter'
                                                                                             ),
 									    array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'คอนสาย คาน',
-                                                                                           'text'=> 'cross'
+                                                                                              'label'=> 'อุปกรณ์ป้องกันและสวิตช์',
+                                                                                           'text'=> 'protection'
                                                                                                                   )
                                                                                       )//action col3
 								     ),
@@ -131,18 +131,18 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เลือก',
-                                                                                            'text'=> 'อุปกรณ์ในระบบจำหน่าย'
+                                                                                            'label'=> 'หม้อแปลงไฟฟ้า',
+                                                                                            'text'=> 'tr'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เสา',
-                                                                                            'text'=> 'pole'
+                                                                                            'label'=> 'อุปกรณ์ไฟถนน',
+                                                                                            'text'=> 'streetlight'
                                                                                             ),
 									    array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'คอนสาย คาน',
-                                                                                                                 'text'=> 'cross'
+                                                                                                                 'label'=> 'อื่นๆ',
+                                                                                                                 'text'=> 'other'
                                                                                                                   )
 									               
                                                                                       )//action col4
