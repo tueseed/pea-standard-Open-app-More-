@@ -73,8 +73,13 @@ if (!is_null($events['events'])) {
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'เสา',
-                                                                                                                 'text'=> 'pole'
+                                                                                                                 'label'=> 'คอนสาย คาน',
+                                                                                                                 'text'=> 'cross'
+                                                                                                                  ),
+												           array(
+                                                                                                                'type'=> 'message',
+                                                                                                                 'label'=> 'คอนสาย คาน',
+                                                                                                                 'text'=> 'cross'
                                                                                                                   )
                                                                                                                   )//action col1
 								            ),
@@ -91,7 +96,12 @@ if (!is_null($events['events'])) {
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสา',
                                                                                             'text'=> 'pole'
-                                                                                            )
+                                                                                            ),
+									 array(
+                                                                                             'type'=> 'message',
+                                                                                              'label'=> 'คอนสาย คาน',
+                                                                                               'text'=> 'cross'
+                                                                                                                  )
                                                                                       )//action col2
 							             ),
 							              array(
@@ -107,7 +117,12 @@ if (!is_null($events['events'])) {
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสา',
                                                                                             'text'=> 'pole'
-                                                                                            )
+                                                                                            ),
+									    array(
+                                                                                             'type'=> 'message',
+                                                                                              'label'=> 'คอนสาย คาน',
+                                                                                           'text'=> 'cross'
+                                                                                                                  )
                                                                                       )//action col3
 								     ),
 								   array(
@@ -123,7 +138,12 @@ if (!is_null($events['events'])) {
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสา',
                                                                                             'text'=> 'pole'
-                                                                                            )
+                                                                                            ),
+									    array(
+                                                                                                                'type'=> 'message',
+                                                                                                                 'label'=> 'คอนสาย คาน',
+                                                                                                                 'text'=> 'cross'
+                                                                                                                  )
 									               
                                                                                       )//action col4
 								     )
