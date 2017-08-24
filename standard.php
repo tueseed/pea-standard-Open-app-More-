@@ -54,7 +54,7 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
-			 if($text=="device"){ 
+			 if($Myd=="999"){ 
 				 $findresult = "success";
 			    $messages = array(
 					 'type'=> 'template',
