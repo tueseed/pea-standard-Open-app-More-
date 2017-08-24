@@ -89,17 +89,17 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เสาตอม่อ(สตับ)และชุดยึดโยง',
+                                                                                            'label'=> 'เสาตอม่อ ยึดโยง',
                                                                                             'text'=> 'stub-guy'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'ชุดต่อสายล่อฟ้า และการต่อลงดิน',
+                                                                                            'label'=> 'ล่อฟ้า การต่อลงดิน',
                                                                                             'text'=> 'lightning'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'ลูกถ้วยฉนวน และอุปกรณ์ประกอบ',
+                                                                                              'label'=> 'ลูกถ้วยฉนวน',
                                                                                                'text'=> 'insulator'
                                                                                                                   )
                                                                                       )//action col2
@@ -110,17 +110,17 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'สายไฟฟ้าและอุปกรณ์ประกอบ',
+                                                                                            'label'=> 'สายไฟฟ้า',
                                                                                             'text'=> 'conductor'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'มิเตอร์ ซี.ที วี.ที และอุปกรณ์ประกอบ',
+                                                                                            'label'=> 'มิเตอร์ ซี.ที วี.ที',
                                                                                             'text'=> 'meter'
                                                                                             ),
 									    array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'อุปกรณ์ป้องกันและสวิตช์',
+                                                                                              'label'=> 'ป้องกันและสวิตช์',
                                                                                            'text'=> 'protection'
                                                                                                                   )
                                                                                       )//action col3
