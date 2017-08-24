@@ -61,24 +61,23 @@ if (!is_null($events['events'])) {
                                           'altText'=> 'อุปกรณ์ในระบบจำหน่าย',
                                            'template'=>array (
                                                              'type'=> 'carousel',
-                                                         'columns'=> array(
-							   
-						                    array(
-								    'title'=>'อุปกรณ์ในระบบจำหน่าย',    
-								    'text'=> 'กรุณาเลือกหมวด',
-                                                                    'actions'=>array (
-                                                                                      array(
-                                                                                            'type'=> 'message',
-                                                                                            'label'=> 'เสา',
-                                                                                            'text'=> 'pole'
-                                                                                            ),
-									    array(
-                                                                                            'type'=> 'message',
-                                                                                            'label'=> 'เสา',
-                                                                                            'text'=> 'pole'
-                                                                                            )
-                                                                                      )//action col1
-								     ),
+                                                             'columns'=> array(
+						                               array(
+								                     'title'=>'อุปกรณ์ในระบบจำหน่าย',    
+								                     'text'=> 'กรุณาเลือกหมวด',
+                                                                                        'actions'=>array (
+                                                                                                           array(
+                                                                                                                 'type'=> 'message',
+                                                                                                                 'label'=> 'เสา',
+                                                                                                                 'text'=> 'pole'
+                                                                                                                 ),
+									                                   array(
+                                                                                                                'type'=> 'message',
+                                                                                                                 'label'=> 'เสา',
+                                                                                                                 'text'=> 'pole'
+                                                                                                                  )
+                                                                                                                  )//action col1
+								            ),
 								     array(
 							            'title'=>'อุปกรณ์ในระบบจำหน่าย', 
 								    'text'=> 'กรุณาเลือกหมวด',
