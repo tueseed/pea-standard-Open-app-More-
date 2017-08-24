@@ -54,6 +54,69 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
+			 if($text=="คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย"){ 
+			    $messages = array(
+					 'type'=> 'template',
+                                          'altText'=> '9999999999999999',
+                                           'template'=>array (
+                                                             'type'=> 'carousel',
+                                                         'columns'=> array(
+							   
+						                    array(
+								    'title'=>'9กรุณาเลือกแผนก',    
+								    'text'=> 'แผนกแรงสูง',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> '9999เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกแรงสูง'
+                                                                                            )
+                                                                                      )//action col1
+								     ),
+								     array(
+							            'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'แผนกหม้อแปลง',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกหม้อแปลง'
+                                                                                            )
+                                                                                      )//action col2
+							             ),
+							              array(
+							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'แผนกแรงต่ำ',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกแรงต่ำ'
+                                                                                            )
+                                                                                      )//action col3
+								     ),
+								   array(
+							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'อุปกรณ์ในระบบจำหน่าย',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย'
+                                                                                            )
+									               
+                                                                                      )//action col4
+								     )
+								 
+								 
+								 
+								 
+								     ) //array columns
+                                                            )//array templete
+				                    
+                                            ); //array messages 
+			 }
+			
 			
 			 if ($Myd==""){
 				 $findresult = "N/A";
