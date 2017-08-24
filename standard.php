@@ -56,15 +56,66 @@ if (!is_null($events['events'])) {
 			 }
 			 if ($Myd==""){
 				 $findresult = "N/A";
-				 $Myd = "สวัสดีครับ มาตรฐานการก่อสร้างระบบจำหน่ายเป็นเรื่องสำคัญ สงสัยเรื่องไหนเรามีคำตอบ พิมพ์ แรงสูง หม้อแปลง แรงต่ำ หรือคลิกที่ลิ้ง เพื่อดูวิธีการใช้งาน 
-https://drive.google.com/open?id=0B4BTAaYsG0CpMF9VRUExRWhZLUU 
-พบปัญหาการใช้งานหรือมีคำติชม ข้อเสนอแนะเพิ่มเติมติดต่อ 
-นายนัทธพงศ์ เจริญกิจพิเชียร 
-วิศวกรระดับ 5 ผกส.กฟอ.พธร. 
- เบอร์ดาวเทียม 14850 
-LINE : tueseed 
-email : nattapong.cha@pea.co.th,tue_seed@hotmail.com 
-หรือ โทร 095-5579848";
+				 $messages = array(
+					 'type'=> 'template',
+                                          'altText'=> 'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก',
+                                           'template'=>array (
+                                                             'type'=> 'carousel',
+                                                         'columns'=> array(
+							   
+						                    array(
+								    'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก',    
+								    'text'=> 'แผนกแรงสูง',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกแรงสูง'
+                                                                                            )
+                                                                                      )//action col1
+								     ),
+								     array(
+							            'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'แผนกหม้อแปลง',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกหม้อแปลง'
+                                                                                            )
+                                                                                      )//action col2
+							             ),
+							              array(
+							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'แผนกแรงต่ำ',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกแผนกแรงต่ำ'
+                                                                                            )
+                                                                                      )//action col3
+								     ),
+								   array(
+							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'อุปกรณ์ในระบบจำหน่าย',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เลือก',
+                                                                                            'text'=> 'คุณเลือกอุปกรณ์ในระบบจำหน่าย'
+                                                                                            )
+									               
+                                                                                      )//action col4
+								     )
+								 
+								 
+								 
+								 
+								     ) //array columns
+                                                            )//array templete
+				                    
+                                            ); //array messages 
 			 }
                 // Build message to reply back
 			
