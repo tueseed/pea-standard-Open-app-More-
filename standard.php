@@ -58,41 +58,56 @@ if (!is_null($events['events'])) {
 				 $findresult = "success";
 			    $messages = array(
 					 'type'=> 'template',
-                                          'altText'=> '9999999999999999',
+                                          'altText'=> 'อุปกรณ์ในระบบจำหน่าย',
                                            'template'=>array (
                                                              'type'=> 'carousel',
                                                          'columns'=> array(
 							   
 						                    array(
-								    'title'=>'9000000000',    
-								    'text'=> '8888888888',
+								    'title'=>'อุปกรณ์ในระบบจำหน่าย',    
+								    'text'=> 'กรุณาเลือกหมวด',
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> '9999เลือก',
-                                                                                            'text'=> 'คุณเลือกแผนกแรงสูง'
+                                                                                            'label'=> 'เสา',
+                                                                                            'text'=> 'pole'
+                                                                                            ),
+									    array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เสา',
+                                                                                            'text'=> 'pole'
                                                                                             )
                                                                                       )//action col1
 								     ),
 								     array(
-							            'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
-								    'text'=> 'แผนกหม้อแปลง',
+							            'title'=>'อุปกรณ์ในระบบจำหน่าย', 
+								    'text'=> 'กรุณาเลือกหมวด',
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เลือก',
+                                                                                            'label'=> 'คอนสาย',
                                                                                             'text'=> 'คุณเลือกแผนกหม้อแปลง'
+                                                                                            ),
+									    array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เสา',
+                                                                                            'text'=> 'pole'
                                                                                             )
                                                                                       )//action col2
 							             ),
 							              array(
-							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
-								    'text'=> 'แผนกแรงต่ำ',
+							           'title'=>'อุปกรณ์ในระบบจำหน่าย', 
+								    'text'=> 'กรุณาเลือกหมวด',
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
                                                                                             'text'=> 'คุณเลือกแผนกแรงต่ำ'
+                                                                                            ),
+									    array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เสา',
+                                                                                            'text'=> 'pole'
                                                                                             )
                                                                                       )//action col3
 								     ),
@@ -104,6 +119,11 @@ if (!is_null($events['events'])) {
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
                                                                                             'text'=> 'อุปกรณ์ในระบบจำหน่าย'
+                                                                                            )
+									    array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'เสา',
+                                                                                            'text'=> 'pole'
                                                                                             )
 									               
                                                                                       )//action col4
