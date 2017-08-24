@@ -54,7 +54,7 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
-			 if($text=="คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย"){ 
+			 if($text=="อุปกรณ์ในระบบจำหน่าย"){ 
 			    $messages = array(
 					 'type'=> 'template',
                                           'altText'=> '9999999999999999',
@@ -102,7 +102,7 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
-                                                                                            'text'=> 'คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย'
+                                                                                            'text'=> 'อุปกรณ์ในระบบจำหน่าย'
                                                                                             )
 									               
                                                                                       )//action col4
