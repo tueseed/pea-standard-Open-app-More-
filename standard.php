@@ -31,7 +31,7 @@ if (!is_null($events['events'])) {
 			 if($Myd==1){ 
 			    break;
 			}
-			 if($Myd=="แรงสูง"){ 
+			 if($text=="แรงสูง"){ 
 			    $Myd = "โอ้โห";
 			}
 			 if ($Myd==""){
