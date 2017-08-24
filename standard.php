@@ -54,6 +54,63 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
+			if($text=="คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย"){ 
+			    $messages = array(
+					 'type'=> 'template',
+                                          'altText'=> 'คู่มืออุปกรณ์ในระบบจำหน่าย',
+                                           'template'=>array (
+                                                             'type'=> 'carousel',
+                                                         'columns'=> array(
+							   
+						                    array(
+								    'title'=>'คู่มืออุปกรณ์ในระบบจำหน่าย',    
+								    'text'=> 'กรุณาเลือกหมวด',
+                                                                    'actions'=>array (
+                                                                                      array('type'=> 'message','label'=> 'เสา','text'=> 'เสา'),
+									    	      array('type'=> 'message','label'=> 'คอนสาย คาน','text'=> 'คอนสาย คาน'),
+									              array('type'=> 'message','label'=> 'อุปกรณ์ยึดคอนสาย คาน','text'=> 'อุปกรณ์ยึดคอนสาย คาน')
+                                                                                      )//action col1
+								     ),
+								     array(
+							            'title'=>'คู่มืออุปกรณ์ในระบบจำหน่าย', 
+								    'text'=> 'กรุณาเลือกหมวด',
+                                                                    'actions'=>array (
+                                                                                      array('type'=> 'message','label'=> 'ตอม่อ ยึดโยง','text'=> 'ตอม่อ ยึดโยง'),
+									    	      array('type'=> 'message','label'=> 'ล่อฟ้าและการต่อลงดิน','text'=> 'ล่อฟ้าและการต่อลงดิน'),
+									              array('type'=> 'message','label'=> 'ลูกถ้วยและอุปกรณ์ประกอบ','text'=> 'ลูกถ้วยและอุปกรณ์ประกอบ')
+                                                                                            )
+                                                                                      )//action col2
+							             ),
+							              array(
+							           'title'=>'คู่มืออุปกรณ์ในระบบจำหน่าย', 
+								    'text'=> 'กรุณาเลือกหมวด',
+                                                                    'actions'=>array (
+                                                                                     array('type'=> 'message','label'=> 'สายไฟฟ้าและอุปกรณ์ประกอบ','text'=> 'สายไฟฟ้าและอุปกรณ์ประกอบ'),
+									    	      array('type'=> 'message','label'=> 'มิเตอร์ CT VT','text'=> 'มิเตอร์ CT VT'),
+									              array('type'=> 'message','label'=> 'อุปรกร์ป้องกันและสวิซต์','text'=> 'อุปรกร์ป้องกันและสวิซต์')
+                                                                                            )
+                                                                                      )//action col3
+								     ),
+								   array(
+							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
+								    'text'=> 'อุปกรณ์ในระบบจำหน่าย',
+                                                                    'actions'=>array (
+                                                                                      array('type'=> 'message','label'=> 'หม้อแปลงไฟฟ้าและแคแปซิเตอร์','text'=> 'หม้อแปลงไฟฟ้าและแคแปซิเตอร์'),
+									    	      array('type'=> 'message','label'=> 'อุปกรณ์ไฟถนน','text'=> 'อุปกรณ์ไฟถนน'),
+									              array('type'=> 'message','label'=> '์N/A','text'=> 'N/A')
+                                                                                            )
+									               
+                                                                                      )//action col4
+								     )
+								 
+								 
+								 
+								 
+								     ) //array columns
+                                                            )//array templete
+				                    
+                                            ); //array messages
+			 }
 			 if ($Myd==""){
 				 $findresult = "N/A";
 				 $messages = array(
@@ -103,7 +160,7 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
-                                                                                            'text'=> 'คุณเลือกอุปกรณ์ในระบบจำหน่าย'
+                                                                                            'text'=> 'คุณเลือกคู่มืออุปกรณ์ในระบบจำหน่าย'
                                                                                             )
 									               
                                                                                       )//action col4
