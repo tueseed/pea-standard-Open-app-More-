@@ -55,6 +55,7 @@ if (!is_null($events['events'])) {
 			             ];
 			 }
 			 if($text=="device"){ 
+				 $findresult = "success";
 			    $messages = array(
 					 'type'=> 'template',
                                           'altText'=> '9999999999999999',
