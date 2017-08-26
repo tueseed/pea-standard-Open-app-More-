@@ -211,7 +211,7 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เลือก',
-                                                                                            'text'=> 'device'
+                                                                                            'text'=> 'equip'
                                                                                             )
 									               
                                                                                       )//action col4
