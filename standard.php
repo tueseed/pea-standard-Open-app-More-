@@ -66,13 +66,7 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
-			 if($text=="เสา"){ 
-			    $Myd = $pole;
-			$messages = [
-				'type' => 'text',
-				'text' => $Myd    
-			             ];
-			 }
+			 if($text=="เสา"){$Myd = $pole;$messages = ['type' => 'text','text' => $Myd];}
 			 if($Myd=="999"){ 
 				 $findresult = "success";
 			    $messages = array(
