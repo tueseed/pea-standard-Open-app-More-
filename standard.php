@@ -70,17 +70,17 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'เสา',
-                                                                                                                 'text'=> 'pole'
+                                                                                                                 'text'=> '#1'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'คอนสาย คาน',
-                                                                                                                 'text'=> 'cross'
+                                                                                                                 'text'=> '#2'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'อุปกรณ์ยึดคอนสาย คาน',
-                                                                                                                 'text'=> 'cross1'
+                                                                                                                 'text'=> '#3'
                                                                                                                   )
                                                                                                                   )//action col1
 								            ),
@@ -92,17 +92,17 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสาตอม่อ ยึดโยง',
-                                                                                            'text'=> 'stub-guy'
+                                                                                            'text'=> '#4'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'ล่อฟ้า การต่อลงดิน',
-                                                                                            'text'=> 'lightning'
+                                                                                            'text'=> '#5'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'ลูกถ้วยฉนวน',
-                                                                                               'text'=> 'insulator'
+                                                                                               'text'=> '#6'
                                                                                                                   )
                                                                                       )//action col2
 							             ),
@@ -114,17 +114,17 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'สายไฟฟ้า',
-                                                                                            'text'=> 'conductor'
+                                                                                            'text'=> '#7'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'มิเตอร์ ซี.ที วี.ที',
-                                                                                            'text'=> 'meter'
+                                                                                            'text'=> '#8'
                                                                                             ),
 									    array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'ป้องกันและสวิตช์',
-                                                                                           'text'=> 'protection'
+                                                                                           'text'=> '#9'
                                                                                                                   )
                                                                                       )//action col3
 								     ),
@@ -136,12 +136,12 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'หม้อแปลงไฟฟ้า',
-                                                                                            'text'=> 'tr'
+                                                                                            'text'=> '#10'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'อุปกรณ์ไฟถนน',
-                                                                                            'text'=> 'streetlight'
+                                                                                            'text'=> '#11'
                                                                                             ),
 									    array(
                                                                                                                 'type'=> 'message',
