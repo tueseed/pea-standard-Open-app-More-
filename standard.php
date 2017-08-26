@@ -141,7 +141,7 @@ if (!is_null($events['events'])) {
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'อุปกรณ์ไฟถนน',
-                                                                                            'text'=> '#11'
+                                                                                            'text'=> '300'
                                                                                             ),
 									    array(
                                                                                                                 'type'=> 'message',
