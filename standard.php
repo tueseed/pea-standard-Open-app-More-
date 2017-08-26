@@ -54,6 +54,15 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
+			 if($text=="เสา"){ 
+			    $Myd = "49.เสาคอนกรีต 8 9 9.3 เมตร
+			            \n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร
+				    \n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
+			$messages = [
+				'type' => 'text',
+				'text' => $Myd    
+			             ];
+			 }
 			 if($Myd=="999"){ 
 				 $findresult = "success";
 			    $messages = array(
@@ -70,17 +79,17 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'เสา',
-                                                                                                                 'text'=> '#1'
+                                                                                                                 'text'=> 'เสา'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'คอนสาย คาน',
-                                                                                                                 'text'=> '#2'
+                                                                                                                 'text'=> 'คอนสาย คาน'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'อุปกรณ์ยึดคอนสาย คาน',
-                                                                                                                 'text'=> '#3'
+                                                                                                                 'text'=> 'อุปกรณ์ยึดคอนสาย'
                                                                                                                   )
                                                                                                                   )//action col1
 								            ),
@@ -92,17 +101,17 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เสาตอม่อ ยึดโยง',
-                                                                                            'text'=> '#4'
+                                                                                            'text'=> 'เสาตอม่อ ยึดโยง'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'ล่อฟ้า การต่อลงดิน',
-                                                                                            'text'=> '#5'
+                                                                                            'text'=> 'ล่อฟ้า การต่อลงดิน'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'ลูกถ้วยฉนวน',
-                                                                                               'text'=> '#6'
+                                                                                               'text'=> 'ลูกถ้วยฉนวน'
                                                                                                                   )
                                                                                       )//action col2
 							             ),
@@ -114,17 +123,17 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'สายไฟฟ้า',
-                                                                                            'text'=> '#7'
+                                                                                            'text'=> '#สายไฟฟ้า'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'มิเตอร์ ซี.ที วี.ที',
-                                                                                            'text'=> '#8'
+                                                                                            'text'=> 'มิเตอร์ ซี.ที วี.ที'
                                                                                             ),
 									    array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'ป้องกันและสวิตช์',
-                                                                                           'text'=> '#9'
+                                                                                           'text'=> 'ป้องกันและสวิตช์'
                                                                                                                   )
                                                                                       )//action col3
 								     ),
@@ -136,12 +145,12 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'หม้อแปลงไฟฟ้า',
-                                                                                            'text'=> '#10'
+                                                                                            'text'=> 'หม้อแปลงไฟฟ้า'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'อุปกรณ์ไฟถนน',
-                                                                                            'text'=> '300'
+                                                                                            'text'=> 'อุปกรณ์ไฟถนน'
                                                                                             ),
 									    array(
                                                                                                                 'type'=> 'message',
