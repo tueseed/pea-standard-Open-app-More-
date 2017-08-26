@@ -66,7 +66,17 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
-			 if($text=="เสา"){$Myd = $pole;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="เสา"){$Myd = $pole;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="คอนสาย คาน"){$Myd =  $crossarm;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="อุปกรณ์ยึดคอนสาย"){$Myd = $cross_eq;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="เสาตอม่อ ยึดโยง"){$Myd = $stub;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="ล่อฟ้า การต่อลงดิน"){$Myd = $li;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="ลูกถ้วยฉนวน"){$Myd = $insulator;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="สายไฟฟ้า"){$Myd = $conduc;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="มิเตอร์ ซี.ที วี.ที"){$Myd = $meter;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="ป้องกันและสวิตช์"){$Myd = $protec;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="หม้อแปลงไฟฟ้า"){$Myd = $tran;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="อุปกรณ์ไฟถนน"){$Myd = $street;$messages = ['type' => 'text','text' => $Myd];}
 			 if($Myd=="999"){ 
 				 $findresult = "success";
 			    $messages = array(
@@ -127,7 +137,7 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'สายไฟฟ้า',
-                                                                                            'text'=> '#สายไฟฟ้า'
+                                                                                            'text'=> 'สายไฟฟ้า'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
