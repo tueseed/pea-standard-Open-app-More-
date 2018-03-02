@@ -2,8 +2,6 @@
 $Token = "R2vVrZoYiCHtSfiv43Wr4oDVoGJOaFB8kHA8LF7l1pi";
 $message = "ทดสอบจ้า ทดสอบ";
 
-line_notify($Token, $message);
-
 fucntion line_notify($Token, $message)
 {
         $lineapi = $Token; // ใส่ token key ที่ได้มา
@@ -33,4 +31,6 @@ fucntion line_notify($Token, $message)
         } 
 	curl_close( $chOne );   
 }
+
+line_notify($Token, $message);
 ?>
