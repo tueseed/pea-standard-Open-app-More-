@@ -1,3 +1,4 @@
+<?php
 $Token = "R2vVrZoYiCHtSfiv43Wr4oDVoGJOaFB8kHA8LF7l1pi";
 $message = "ทดสอบจ้า ทดสอบ";
 
@@ -32,3 +33,4 @@ fucntion line_notify($Token, $message)
         } 
 	curl_close( $chOne );   
 }
+?>
