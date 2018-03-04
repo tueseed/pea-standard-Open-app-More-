@@ -18,7 +18,7 @@ function send_line_notify($message, $token)
 }
 
 $message = 'ข้อความ';
-$token = 'R2vVrZoYiCHtSfiv43Wr4oDVoGJOaFB8kHA8LF7l1pi';
+$token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
 
 echo send_line_notify($message, $token);
 
