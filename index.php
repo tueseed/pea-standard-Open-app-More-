@@ -8,11 +8,11 @@ $db = substr($url["path"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
 if($conn){
-echo "connect";
+echo "เชื่อมต่ออออออออ";
 
 }
 else{
-echo "เชื่อมต่ออออออออ";
+echo "ไม่เชื่อมต่ออออออออ";
 
 }
 //echo "Hello LINE BOT";
