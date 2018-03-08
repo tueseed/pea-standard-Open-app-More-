@@ -12,7 +12,7 @@ echo "connect";
 
 }
 else{
-echo "error";
+echo "เชื่อมต่ออออออออ";
 
 }
 //echo "Hello LINE BOT";
