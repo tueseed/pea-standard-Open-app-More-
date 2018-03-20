@@ -17,7 +17,7 @@ function send_line_notify($message, $token)
   return $result;
 }
 
-$message = 'ข้อความ';
+$message = 'https://voc-bot.herokuapp.com/daily.php';
 $token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
 
 echo send_line_notify($message, $token);
