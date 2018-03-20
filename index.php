@@ -26,7 +26,7 @@ function DateThai($strDate){
 				$strMonthThai=$strMonthCut[$strMonth];
 				return "$strDay $strMonthThai $strYear";
 			}
-$strDate1 = date("yy-m-d");
+$strDate1 = date("Y-m-d");
 echo DateThai($strDate1);
 //echo "Hello LINE BOT";
 ?>
