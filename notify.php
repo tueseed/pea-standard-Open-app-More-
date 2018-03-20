@@ -29,7 +29,7 @@ function DateThai($strDate){
 			}
 //$strDate = DateThai(Now());
 $strDate1 = date("yyyy-m-d");
-$msg_notify = "รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่ ".$strDate1."\n"."https://voc-bot.herokuapp.com/daily.php"
+$msg_notify = "รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่ ".$strDate1."\n"."https://voc-bot.herokuapp.com/daily.php";
 $message = $msg_notify;
 $token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
 
