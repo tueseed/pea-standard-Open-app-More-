@@ -27,9 +27,9 @@ function DateThai($strDate){
 				$strMonthThai=$strMonthCut[$strMonth];
 				return "$strDay $strMonthThai $strYear";
 			}
-$strDate = DateThai(Now());
+//$strDate = DateThai(Now());
 $strDate1 = date("d.m.y");
-$message = 'รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่'.$strDate.'https://voc-bot.herokuapp.com/daily.php';
+$message = 'รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่'.$strDate1.'https://voc-bot.herokuapp.com/daily.php';
 $token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
 
 echo send_line_notify($message, $token);
