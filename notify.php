@@ -16,8 +16,19 @@ function send_line_notify($message, $token)
 
   return $result;
 }
-
-$message = 'https://voc-bot.herokuapp.com/daily.php';
+function DateThai($strDate){
+				$strYear = date("Y",strtotime($strDate))+543;
+				$strMonth= date("n",strtotime($strDate));
+				$strDay= date("j",strtotime($strDate));
+				//$strHour= date("H",strtotime($strDate));
+				//$strMinute= date("i",strtotime($strDate));
+				//$strSeconds= date("s",strtotime($strDate));
+				$strMonthCut = Array("","ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.");
+				$strMonthThai=$strMonthCut[$strMonth];
+				return "$strDay $strMonthThai $strYear";
+			}
+$strDate = DateThai(Now());
+$message = 'รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่'.$strDate.'https://voc-bot.herokuapp.com/daily.php';
 $token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
 
 echo send_line_notify($message, $token);
