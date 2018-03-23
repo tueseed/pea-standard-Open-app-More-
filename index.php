@@ -30,7 +30,7 @@ function DateThai($strDate){
 				return "$strthaiday_t $strDay $strMonthThai $strYear";
 			}
 $strDate1 = date("Y-m-d");
-$d_w = date("w",strtotime($strDate1));
+$d_w = date("N",strtotime($strDate1));
 echo DateThai($strDate1);
 echo "        เลขวันที่คือ   ".$d_w;
 //echo "Hello LINE BOT";
