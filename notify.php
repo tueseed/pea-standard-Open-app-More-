@@ -33,7 +33,7 @@ $d_w = date("N",strtotime($strDate1));
 $msg_notify = "รายงานสรุปเรื่องร้องเรียนสายงานการไฟฟ้าภาค 4 ประจำวันที่ ".DateThai($strDate1)."\n"."https://voc-bot.herokuapp.com/daily.php";
 $message = $msg_notify;
 $token = 'RDusZuUWgC6NyW8dZvHRoqLDmAmhvj11huWKJwOznlR';
-if($d_w > 0 AND $d_w < 6){
+if($d_w < 6){
 echo send_line_notify($message, $token);
 }
 ?>
