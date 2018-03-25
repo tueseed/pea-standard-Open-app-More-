@@ -42,8 +42,8 @@ else
 $txtreturn ="วันทำงาน";	
 }
 $strDate1 = date("Y-m-d");
-$d_w = date("N",strtotime($strDate1));
-echo DateThai($strDate1);
+$d_w = date("N",strtotime($day_test));
+echo DateThai($day_test);
 echo "<br>";
 echo "        เลขวันที่คือ   ".$d_w;
 echo "<br>";
