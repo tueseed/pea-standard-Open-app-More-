@@ -35,11 +35,11 @@ $sql = "SELECT * FROM public_holiday WHERE PublicHoliday = '".$day_test."' ";
 $query = mysqli_query($conn,$sql);
 $result = mysqli_fetch_array($query);
 if(!$result){
- $txtreturn ="วันทำงาน";
+ $txtreturn ="วันหยุด";
 }
 else
 {
-$txtreturn ="วันหยุด";	
+$txtreturn ="วันทำงาน";	
 }
 $strDate1 = date("Y-m-d");
 $d_w = date("N",strtotime($strDate1));
