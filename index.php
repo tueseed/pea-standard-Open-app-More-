@@ -9,11 +9,12 @@ $db = substr($url["path"], 1);
 $conn = new mysqli($server, $username, $password, $db);
 if($conn){
 echo "เชื่อมต่ออออออออ";
+echo "<br>";
 
 }
 else{
 echo "ไม่เชื่อมต่ออออออออ";
-
+echo "<br>";
 }
 function DateThai($strDate){
 				$strYear = date("Y",strtotime($strDate))+543;
@@ -29,9 +30,23 @@ function DateThai($strDate){
 	                        $strthaiday_t = $strthaiday_cut[$strthaiday];
 				return "$strthaiday_t $strDay $strMonthThai $strYear";
 			}
+$day_test = date(2018-04-06);
+$sql = "SELECT * FROM public_holiday WHERE PublicHoliday = '".$day_test."' ";
+$query = mysqli_query($conn,$sql);
+$result = mysqli_fetch_array($query);
+if(!$result){
+ $txtreturn ="วันทำงาน";
+}
+else
+{
+$txtreturn ="วันหยุด";	
+}
 $strDate1 = date("Y-m-d");
 $d_w = date("N",strtotime($strDate1));
 echo DateThai($strDate1);
+echo "<br>";
 echo "        เลขวันที่คือ   ".$d_w;
+echo "<br>";
+echo $txtreturn;
 //echo "Hello LINE BOT";
 ?>
