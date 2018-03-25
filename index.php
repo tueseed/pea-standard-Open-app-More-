@@ -31,7 +31,7 @@ function DateThai($strDate){
 				return "$strthaiday_t $strDay $strMonthThai $strYear";
 			}
 $day_test = date(2018-04-06);
-$sql = "SELECT * FROM tbl_holiday WHERE holiday_date = '".$day_test."' ";
+$sql = "SELECT * FROM tbl_holiday WHERE holiday_date LIKE '%".$day_test."%'";
 $query = mysqli_query($conn,$sql);
 $result = mysqli_fetch_array($query);
 if(!$result){
