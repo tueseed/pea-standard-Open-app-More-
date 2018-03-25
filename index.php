@@ -41,7 +41,7 @@ else
 {
 $txtreturn ="วันหยุด";	
 }
-$strDate1 = date("Y-m-d");
+//$strDate1 = date("Y-m-d");
 $d_w = date("N",strtotime($day_test));
 echo DateThai($day_test);
 echo "<br>";
