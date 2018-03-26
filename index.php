@@ -15,7 +15,7 @@ function DateThai($strDate){
 	                        $strthaiday_t = $strthaiday_cut[$strthaiday];
 				return "$strthaiday_t $strDay $strMonthThai $strYear";
 			}
-$day_test1 ="2018-04-06";
+$day_test1 ="2018-04-13";
 $day_test = date(strtotime($day_test1));
 $sql = "SELECT * FROM tbl_holiday WHERE holiday_date = '".$day_test1."'";
 $query = mysqli_query($conn,$sql);
