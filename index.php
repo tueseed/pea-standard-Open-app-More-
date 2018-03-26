@@ -32,7 +32,7 @@ function DateThai($strDate){
 			}
 $day_test1 ="2018-04-06";
 $day_test = date(strtotime($day_test1));
-$sql = "SELECT * FROM tbl_holiday WHERE holiday_name = วันจักรี";
+$sql = "SELECT * FROM tbl_holiday WHERE holiday_date = '".$daytest."'";
 $query = mysqli_query($conn,$sql);
 $result = mysqli_fetch_array($query);
 if(!$result){
